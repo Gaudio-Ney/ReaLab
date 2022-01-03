@@ -1,0 +1,37 @@
+[
+  {
+    "libraryIdentifier" : "7f980e0ea08f7e3fd11ad77b60443e69",
+    "format" : "model",
+    "displayName" : "bone.usdz"
+  },
+  {
+    "libraryIdentifier" : "fd5738b873912ea1fcbdfca27ab7649f",
+    "format" : "model",
+    "displayName" : "cup_saucer_set.usdz"
+  },
+  {
+    "libraryIdentifier" : "f6183a796400245c453550f8de5a54b7",
+    "format" : "model",
+    "displayName" : "egg.usdz"
+  },
+  {
+    "libraryIdentifier" : "b3f5623af3b285ea8384bb3871d23803",
+    "format" : "model",
+    "displayName" : "metalbottle.usdz"
+  },
+  {
+    "libraryIdentifier" : "390b1e01a1666347afb1f0681ad3423d",
+    "format" : "model",
+    "displayName" : "ferrugemobj.usdz"
+  },
+  {
+    "libraryIdentifier" : "9156b3cf55bc1dc4a7c1845ce9afa748",
+    "format" : "model",
+    "displayName" : "ferrugemobj.usdz"
+  },
+  {
+    "libraryIdentifier" : "75be4c3d11fb0067c01d0c59e7050117",
+    "format" : "model",
+    "displayName" : "Final-Ferrugem.usdz"
+  }
+]
