@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302007E0252281BB00DE0E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302007DF252281BB00DE0E40 /* AppDelegate.swift */; };
+		302007E2252281BB00DE0E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302007E1252281BB00DE0E40 /* ContentView.swift */; };
+		302007E4252281BB00DE0E40 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 302007E3252281BB00DE0E40 /* Experience.rcproject */; };
+		302007E6252281BD00DE0E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302007E5252281BD00DE0E40 /* Assets.xcassets */; };
+		302007E9252281BD00DE0E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302007E8252281BD00DE0E40 /* Preview Assets.xcassets */; };
+		302007F4252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302007F3252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4Tests.swift */; };
+		302007FF252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302007FE252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4UITests.swift */; };
+		302008122522831200DE0E40 /* ARViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302008112522831200DE0E40 /* ARViewExtension.swift */; };
+		3020081A2522834100DE0E40 /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302008192522834100DE0E40 /* ModelPickerView.swift */; };
+		3020081F2522836500DE0E40 /* PlacementButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020081E2522836500DE0E40 /* PlacementButtonsView.swift */; };
+		302008242522838900DE0E40 /* ShakableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302008232522838900DE0E40 /* ShakableView.swift */; };
+		3020082A252283B100DE0E40 /* bone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 30200829252283B100DE0E40 /* bone.usdz */; };
+		3020082F252283C000DE0E40 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3020082E252283C000DE0E40 /* cup_saucer_set.usdz */; };
+		30200834252283D200DE0E40 /* egg.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 30200833252283D200DE0E40 /* egg.usdz */; };
+		302008392522847B00DE0E40 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302008382522847B00DE0E40 /* ARViewContainer.swift */; };
+		30E3532A2523B39900CCC3BB /* metalbottle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 30E353292523B39900CCC3BB /* metalbottle.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302007F0252281BD00DE0E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302007D4252281BB00DE0E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302007DB252281BB00DE0E40;
+			remoteInfo = "ReaLab_Gáudio_Challenge_4";
+		};
+		302007FB252281BD00DE0E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302007D4252281BB00DE0E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302007DB252281BB00DE0E40;
+			remoteInfo = "ReaLab_Gáudio_Challenge_4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302007DC252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReaLab_Gáudio_Challenge_4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302007DF252281BB00DE0E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302007E1252281BB00DE0E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		302007E3252281BB00DE0E40 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		302007E5252281BD00DE0E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302007E8252281BD00DE0E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		302007EA252281BD00DE0E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302007EF252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReaLab_Gáudio_Challenge_4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302007F3252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaLab_Ga_udio_Challenge_4Tests.swift; sourceTree = "<group>"; };
+		302007F5252281BD00DE0E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302007FA252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReaLab_Gáudio_Challenge_4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302007FE252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaLab_Ga_udio_Challenge_4UITests.swift; sourceTree = "<group>"; };
+		30200800252281BD00DE0E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302008112522831200DE0E40 /* ARViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewExtension.swift; sourceTree = "<group>"; };
+		302008192522834100DE0E40 /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		3020081E2522836500DE0E40 /* PlacementButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonsView.swift; sourceTree = "<group>"; };
+		302008232522838900DE0E40 /* ShakableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakableView.swift; sourceTree = "<group>"; };
+		30200829252283B100DE0E40 /* bone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = bone.usdz; sourceTree = "<group>"; };
+		3020082E252283C000DE0E40 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		30200833252283D200DE0E40 /* egg.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = egg.usdz; sourceTree = "<group>"; };
+		302008382522847B00DE0E40 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		30E353292523B39900CCC3BB /* metalbottle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = metalbottle.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302007D9252281BB00DE0E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007EC252281BD00DE0E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007F7252281BD00DE0E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302007D3252281BB00DE0E40 = {
+			isa = PBXGroup;
+			children = (
+				302007DE252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */,
+				302007F2252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests */,
+				302007FD252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests */,
+				302007DD252281BB00DE0E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302007DD252281BB00DE0E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302007DC252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4.app */,
+				302007EF252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests.xctest */,
+				302007FA252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302007DE252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */ = {
+			isa = PBXGroup;
+			children = (
+				302008282522839D00DE0E40 /* Models */,
+				3020080F252282A500DE0E40 /* Extensions */,
+				30200810252282BC00DE0E40 /* Componentes */,
+				302007DF252281BB00DE0E40 /* AppDelegate.swift */,
+				302007E1252281BB00DE0E40 /* ContentView.swift */,
+				302008382522847B00DE0E40 /* ARViewContainer.swift */,
+				302007E3252281BB00DE0E40 /* Experience.rcproject */,
+				302007E5252281BD00DE0E40 /* Assets.xcassets */,
+				302007EA252281BD00DE0E40 /* Info.plist */,
+				302007E7252281BD00DE0E40 /* Preview Content */,
+			);
+			path = "ReaLab_Gáudio_Challenge_4";
+			sourceTree = "<group>";
+		};
+		302007E7252281BD00DE0E40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				302007E8252281BD00DE0E40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		302007F2252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				302007F3252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4Tests.swift */,
+				302007F5252281BD00DE0E40 /* Info.plist */,
+			);
+			path = "ReaLab_Gáudio_Challenge_4Tests";
+			sourceTree = "<group>";
+		};
+		302007FD252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				302007FE252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4UITests.swift */,
+				30200800252281BD00DE0E40 /* Info.plist */,
+			);
+			path = "ReaLab_Gáudio_Challenge_4UITests";
+			sourceTree = "<group>";
+		};
+		3020080F252282A500DE0E40 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				302008112522831200DE0E40 /* ARViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30200810252282BC00DE0E40 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				302008192522834100DE0E40 /* ModelPickerView.swift */,
+				3020081E2522836500DE0E40 /* PlacementButtonsView.swift */,
+				302008232522838900DE0E40 /* ShakableView.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		302008282522839D00DE0E40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30200829252283B100DE0E40 /* bone.usdz */,
+				3020082E252283C000DE0E40 /* cup_saucer_set.usdz */,
+				30E353292523B39900CCC3BB /* metalbottle.usdz */,
+				30200833252283D200DE0E40 /* egg.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302007DB252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30200803252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4" */;
+			buildPhases = (
+				302007D8252281BB00DE0E40 /* Sources */,
+				302007D9252281BB00DE0E40 /* Frameworks */,
+				302007DA252281BB00DE0E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReaLab_Gáudio_Challenge_4";
+			productName = "ReaLab_Gáudio_Challenge_4";
+			productReference = 302007DC252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302007EE252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30200806252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4Tests" */;
+			buildPhases = (
+				302007EB252281BD00DE0E40 /* Sources */,
+				302007EC252281BD00DE0E40 /* Frameworks */,
+				302007ED252281BD00DE0E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302007F1252281BD00DE0E40 /* PBXTargetDependency */,
+			);
+			name = "ReaLab_Gáudio_Challenge_4Tests";
+			productName = "ReaLab_Gáudio_Challenge_4Tests";
+			productReference = 302007EF252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		302007F9252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30200809252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4UITests" */;
+			buildPhases = (
+				302007F6252281BD00DE0E40 /* Sources */,
+				302007F7252281BD00DE0E40 /* Frameworks */,
+				302007F8252281BD00DE0E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302007FC252281BD00DE0E40 /* PBXTargetDependency */,
+			);
+			name = "ReaLab_Gáudio_Challenge_4UITests";
+			productName = "ReaLab_Gáudio_Challenge_4UITests";
+			productReference = 302007FA252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302007D4252281BB00DE0E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					302007DB252281BB00DE0E40 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					302007EE252281BD00DE0E40 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 302007DB252281BB00DE0E40;
+					};
+					302007F9252281BD00DE0E40 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 302007DB252281BB00DE0E40;
+					};
+				};
+			};
+			buildConfigurationList = 302007D7252281BB00DE0E40 /* Build configuration list for PBXProject "ReaLab_Gáudio_Challenge_4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302007D3252281BB00DE0E40;
+			productRefGroup = 302007DD252281BB00DE0E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302007DB252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */,
+				302007EE252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4Tests */,
+				302007F9252281BD00DE0E40 /* ReaLab_Gáudio_Challenge_4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302007DA252281BB00DE0E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3020082F252283C000DE0E40 /* cup_saucer_set.usdz in Resources */,
+				302007E9252281BD00DE0E40 /* Preview Assets.xcassets in Resources */,
+				302007E6252281BD00DE0E40 /* Assets.xcassets in Resources */,
+				3020082A252283B100DE0E40 /* bone.usdz in Resources */,
+				30200834252283D200DE0E40 /* egg.usdz in Resources */,
+				30E3532A2523B39900CCC3BB /* metalbottle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007ED252281BD00DE0E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007F8252281BD00DE0E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302007D8252281BB00DE0E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3020081F2522836500DE0E40 /* PlacementButtonsView.swift in Sources */,
+				302008392522847B00DE0E40 /* ARViewContainer.swift in Sources */,
+				3020081A2522834100DE0E40 /* ModelPickerView.swift in Sources */,
+				302007E2252281BB00DE0E40 /* ContentView.swift in Sources */,
+				302007E0252281BB00DE0E40 /* AppDelegate.swift in Sources */,
+				302007E4252281BB00DE0E40 /* Experience.rcproject in Sources */,
+				302008242522838900DE0E40 /* ShakableView.swift in Sources */,
+				302008122522831200DE0E40 /* ARViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007EB252281BD00DE0E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302007F4252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302007F6252281BD00DE0E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302007FF252281BD00DE0E40 /* ReaLab_Ga_udio_Challenge_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302007F1252281BD00DE0E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302007DB252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */;
+			targetProxy = 302007F0252281BD00DE0E40 /* PBXContainerItemProxy */;
+		};
+		302007FC252281BD00DE0E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302007DB252281BB00DE0E40 /* ReaLab_Gáudio_Challenge_4 */;
+			targetProxy = 302007FB252281BD00DE0E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30200801252281BD00DE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30200802252281BD00DE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30200804252281BD00DE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReaLab_Gáudio_Challenge_4/Preview Content\"";
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Gaudio-Challenge-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30200805252281BD00DE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReaLab_Gáudio_Challenge_4/Preview Content\"";
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Gaudio-Challenge-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		30200807252281BD00DE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Ga-udio-Challenge-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReaLab_Gáudio_Challenge_4.app/ReaLab_Gáudio_Challenge_4";
+			};
+			name = Debug;
+		};
+		30200808252281BD00DE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Ga-udio-Challenge-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReaLab_Gáudio_Challenge_4.app/ReaLab_Gáudio_Challenge_4";
+			};
+			name = Release;
+		};
+		3020080A252281BD00DE0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Ga-udio-Challenge-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReaLab_Gáudio_Challenge_4";
+			};
+			name = Debug;
+		};
+		3020080B252281BD00DE0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KZBHS44B;
+				INFOPLIST_FILE = "ReaLab_Gáudio_Challenge_4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy-PUC-RIO.ReaLab-Ga-udio-Challenge-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReaLab_Gáudio_Challenge_4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302007D7252281BB00DE0E40 /* Build configuration list for PBXProject "ReaLab_Gáudio_Challenge_4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30200801252281BD00DE0E40 /* Debug */,
+				30200802252281BD00DE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30200803252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30200804252281BD00DE0E40 /* Debug */,
+				30200805252281BD00DE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30200806252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30200807252281BD00DE0E40 /* Debug */,
+				30200808252281BD00DE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30200809252281BD00DE0E40 /* Build configuration list for PBXNativeTarget "ReaLab_Gáudio_Challenge_4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3020080A252281BD00DE0E40 /* Debug */,
+				3020080B252281BD00DE0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302007D4252281BB00DE0E40 /* Project object */;
+}
